@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Tab Saver</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="app">
+    <h1>Tab Saver</h1>
+
+    <div id="controls">
+        <button id="refreshBtn">Fetch tabs</button>
+        <button id="copyBtn" disabled>Copy</button>
+        <button id="downloadBtn" disabled>Download</button>
+        <button id="saveBtn" disabled>Save session</button>
+    </div>
+
+    
+    <div id="list"></div>
+    <h2>Saved Sessions</h2>
+    <div id="sessions"></div>
+    <div id="status" class="status"></div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
